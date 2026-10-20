@@ -1,7 +1,7 @@
 <section id="workflow" class="py-20 border-t border-slate-900 bg-slate-900/30">
     <div class="max-w-7xl mx-auto px-6">
         <div class="text-center max-w-2xl mx-auto mb-16">
-            <p class="service-kicker">Workload · request to delivery</p>
+            <p class="service-kicker">Our process · request to delivery</p>
             <h2 class="text-3xl font-bold text-white mb-4">How We Work</h2>
             <p class="text-slate-400">Every request moves through a clear process—from understanding what you need to delivering the work and providing support.</p>
         </div>

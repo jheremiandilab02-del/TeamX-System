@@ -489,6 +489,61 @@ section[id]:not(#top) .text-center h2 {
     line-height: 1.75;
 }
 
+.about-cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-top: 1.25rem;
+    padding: 1.25rem 1.4rem;
+    border: 1px solid var(--line-soft);
+    background: linear-gradient(110deg, rgba(16, 36, 60, 0.55), rgba(10, 13, 18, 0.75));
+}
+
+.about-cta p {
+    margin: 0;
+    color: #aeb8c5;
+    font-size: 0.84rem;
+    line-height: 1.7;
+}
+
+.about-cta strong {
+    color: #edf3fb;
+}
+
+.about-cta .premium-button {
+    flex: 0 0 auto;
+}
+
+.testimonial-note {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    padding: clamp(1.25rem, 4vw, 2rem);
+    border: 1px solid var(--line);
+    background: linear-gradient(120deg, rgba(17, 22, 29, 0.96), rgba(10, 13, 18, 0.98));
+}
+
+.testimonial-note h3 {
+    margin: 0 0 0.45rem;
+    color: #edf3fb;
+    font-family: var(--display);
+    font-size: 1.15rem;
+    font-weight: 500;
+    letter-spacing: -0.035em;
+}
+
+.testimonial-note p {
+    margin: 0;
+    color: #a0aab8;
+    font-size: 0.84rem;
+    line-height: 1.75;
+}
+
+.testimonial-note .premium-secondary {
+    flex: 0 0 auto;
+}
+
 .service-kicker {
     margin: 0;
     color: #92b8e8;
@@ -1226,6 +1281,12 @@ html.has-reveal .reveal-on-scroll.is-visible {
     .about-card {
         min-height: auto;
         padding: 1.15rem;
+    }
+
+    .about-cta,
+    .testimonial-note {
+        align-items: flex-start;
+        flex-direction: column;
     }
 
     .project-grid {

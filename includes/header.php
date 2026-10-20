@@ -7,7 +7,7 @@
         <nav class="site-links text-sm font-medium text-slate-400" aria-label="Main navigation">
             <a href="#about" class="hover:text-blue-300 transition-colors">About</a>
             <a href="#services" class="hover:text-blue-300 transition-colors">Services</a>
-            <a href="#workflow" class="hover:text-blue-300 transition-colors">Workload</a>
+            <a href="#workflow" class="hover:text-blue-300 transition-colors">Workflow</a>
             <a href="#projects" class="hover:text-blue-300 transition-colors">Work</a>
             <a href="#testimonials" class="hover:text-blue-300 transition-colors">Clients</a>
         </nav>

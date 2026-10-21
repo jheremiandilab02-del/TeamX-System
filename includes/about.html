@@ -1,0 +1,35 @@
+<section id="about" class="py-20 border-t border-slate-900 bg-slate-950">
+    <div class="max-w-7xl mx-auto px-6">
+        <div class="section-heading">
+            <div>
+                <p class="service-kicker">About TeamX</p>
+                <h2>Technology that works<br>for your next step.</h2>
+            </div>
+            <p>TeamX brings hardware, software, and IT support together in one place—from reliable installations and maintenance to practical digital solutions.</p>
+        </div>
+
+        <div class="about-grid">
+            <article class="about-card">
+                <span class="about-card-icon"><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i></span>
+                <div>
+                    <h3>Hands-on expertise</h3>
+                    <p>Get help with devices, networking, CCTV, and the technology your work depends on.</p>
+                </div>
+            </article>
+            <article class="about-card">
+                <span class="about-card-icon"><i class="fa-solid fa-code" aria-hidden="true"></i></span>
+                <div>
+                    <h3>Digital solutions</h3>
+                    <p>Build a stronger online presence with website, app, and graphic design services.</p>
+                </div>
+            </article>
+            <article class="about-card">
+                <span class="about-card-icon"><i class="fa-solid fa-headset" aria-hidden="true"></i></span>
+                <div>
+                    <h3>Support that continues</h3>
+                    <p>From troubleshooting to follow-up support, we help you move forward with confidence.</p>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>

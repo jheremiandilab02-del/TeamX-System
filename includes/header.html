@@ -1,7 +1,39 @@
 <header class="sticky top-0 z-50 backdrop-blur-md bg-slate-950/80 border-b border-slate-800/80">
+    <svg class="header-circuit-runners" viewBox="0 0 1440 100" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+        <defs>
+            <linearGradient id="header-circuit-streak" x1="0" x2="1">
+                <stop offset="0" stop-color="#62f5ff" stop-opacity="0"/>
+                <stop offset=".35" stop-color="#62f5ff" stop-opacity=".42"/>
+                <stop offset=".82" stop-color="#a8fbff" stop-opacity=".88"/>
+                <stop offset="1" stop-color="#ffffff"/>
+            </linearGradient>
+        </defs>
+        <g fill="url(#header-circuit-streak)" filter="drop-shadow(0 0 2px #62f5ff)">
+            <rect x="-10" y="-1.4" width="20" height="2.8" rx="1.4">
+                <animateMotion dur="6.2s" begin="-1.8s" repeatCount="indefinite" rotate="auto" calcMode="paced" path="M198 40H316L340 16H420V18L442 40H526L544 58H672L694 36H795"/>
+                <animate attributeName="opacity" dur="6.2s" begin="-1.8s" values="0;1;1;0;0" keyTimes="0;.04;.97;.99;1" repeatCount="indefinite"/>
+            </rect>
+            <rect x="-10" y="-1.4" width="20" height="2.8" rx="1.4">
+                <animateMotion dur="7.6s" begin="-5.1s" repeatCount="indefinite" rotate="auto" calcMode="paced" path="M198 40H316L340 16H420V18L442 40H526L544 58H672L694 36H795"/>
+                <animate attributeName="opacity" dur="7.6s" begin="-5.1s" values="0;1;1;0;0" keyTimes="0;.04;.97;.99;1" repeatCount="indefinite"/>
+            </rect>
+            <rect x="-8" y="-1.2" width="16" height="2.4" rx="1.2">
+                <animateMotion dur="5.8s" begin="-2.6s" repeatCount="indefinite" rotate="auto" calcMode="paced" path="M430 40H514L532 22H606L624 40H690"/>
+                <animate attributeName="opacity" dur="5.8s" begin="-2.6s" values="0;1;1;0;0" keyTimes="0;.05;.94;.98;1" repeatCount="indefinite"/>
+            </rect>
+            <rect x="-8" y="-1.2" width="16" height="2.4" rx="1.2">
+                <animateMotion dur="6.9s" begin="-4.3s" repeatCount="indefinite" rotate="auto" calcMode="paced" path="M500 94V80L518 62H600L618 80H682"/>
+                <animate attributeName="opacity" dur="6.9s" begin="-4.3s" values="0;1;1;0;0" keyTimes="0;.05;.94;.98;1" repeatCount="indefinite"/>
+            </rect>
+        </g>
+    </svg>
     <div class="site-nav max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <a href="#top" class="brand-lockup flex items-center gap-3 group" aria-label="TeamX home">
-            <img src="TeamXLogo/TeamXlogo.jpg" alt="TeamX" width="180" height="90">
+            <span class="cyber-logo-frame cyber-logo-frame--header">
+                <video class="brand-logo" autoplay muted loop playsinline preload="metadata" poster="TeamXLogo/TeamXlogo.jpg" aria-hidden="true">
+                    <source src="TeamXLogo/TeamX_Animated_Logo.mp4" type="video/mp4">
+                </video>
+            </span>
         </a>
 
         <nav class="site-links text-sm font-medium text-slate-400" aria-label="Main navigation">

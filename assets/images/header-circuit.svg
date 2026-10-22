@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" preserveAspectRatio="none">
+  <g fill="none" stroke="#168fff" stroke-linecap="square" stroke-linejoin="round">
+    <path d="M0 22h180l18 18h118l24-24h138l28 28h106" opacity=".36"/>
+    <path d="M0 72h92l22-22h90l18 18h104l18-18h116" opacity=".28"/>
+    <path d="M420 0v18l22 22h84l18 18h128l22-22h111" opacity=".32"/>
+    <path d="M635 100V76l18-18h92l18 18h84l18-18h95" opacity=".34"/>
+    <path d="M860 0v22l18 18h76l18-18h92l20 20h78" opacity=".3"/>
+    <path d="M1035 100V78l20-20h82l18 18h92l20-20h173" opacity=".32"/>
+    <path d="M1180 0v14l18 18h94l18 18h130" opacity=".27"/>
+    <path d="M0 88h252l18-18h92" opacity=".22"/>
+    <path d="M0 8h120l16 16h104l16-16h92" opacity=".24"/>
+    <path d="M250 94h138l18-18h104l18 18h88" opacity=".25"/>
+    <path d="M600 6v12l20 20h100l18-18h82" opacity=".24"/>
+    <path d="M780 94V80l18-18h102l18 18h92" opacity=".25"/>
+    <path d="M1260 8h100l12 12h68" opacity=".25"/>
+    <path d="M1280 92h84l18-17h58" opacity=".24"/>
+  </g>
+  <g fill="none" stroke="#62f5ff" stroke-width="1">
+    <path d="M197 36h118l24-24h92" opacity=".54"/>
+    <path d="M653 58h92l18 18h84" opacity=".5"/>
+    <path d="M1073 58h64l18 18h92" opacity=".46"/>
+    <path d="M430 40h84l18-18h74l18 18h76" opacity=".38"/>
+    <path d="M500 94V80l18-18h82l18 18h82" opacity=".38"/>
+  </g>
+  <g fill="#62f5ff">
+    <circle cx="180" cy="22" r="1.7" opacity=".8"/>
+    <circle cx="340" cy="16" r="1.7" opacity=".72"/>
+    <circle cx="420" cy="18" r="1.6" opacity=".75"/>
+    <circle cx="635" cy="76" r="1.7" opacity=".76"/>
+    <circle cx="860" cy="22" r="1.7" opacity=".72"/>
+    <circle cx="1035" cy="78" r="1.7" opacity=".72"/>
+    <circle cx="1180" cy="14" r="1.6" opacity=".7"/>
+    <circle cx="270" cy="70" r="1.5" opacity=".6"/>
+    <circle cx="745" cy="58" r="1.5" opacity=".68"/>
+    <circle cx="1155" cy="58" r="1.5" opacity=".68"/>
+    <circle cx="240" cy="24" r="1.5" opacity=".62">
+      <animate attributeName="opacity" values=".35;.9;.35" dur="3.8s" begin="-.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="510" cy="76" r="1.5" opacity=".65">
+      <animate attributeName="opacity" values=".3;1;.3" dur="4.6s" begin="-2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="720" cy="38" r="1.5" opacity=".65">
+      <animate attributeName="opacity" values=".3;.95;.3" dur="5.1s" begin="-1.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1380" cy="20" r="1.5" opacity=".6">
+      <animate attributeName="opacity" values=".3;.9;.3" dur="4.2s" begin="-3.1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

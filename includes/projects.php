@@ -30,7 +30,7 @@ $showcaseProjects = [
     <div class="max-w-7xl mx-auto px-6">
         <div class="section-heading">
             <div>
-                <p class="service-kicker">CAPABILITY PREVIEWS · 01—04</p>
+                <p class="service-kicker">CAPABILITY PREVIEWS · 01 / 04</p>
                 <h2>Technology,<br>put to work.</h2>
             </div>
             <p>Illustrative previews of the hardware, support, and digital solutions we can deliver. Real project photos can replace these as your work is completed.</p>
